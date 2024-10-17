@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Plots
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Plots
+  - Water
+  - UI
+  - Enemy
+  - Bala
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: TileMap
+    uniqueID: 1372422839
+    locked: 0
+  - name: Turrent
+    uniqueID: 1011722741
+    locked: 0
+  - name: Inimigos
+    uniqueID: 1638275593
+    locked: 0
