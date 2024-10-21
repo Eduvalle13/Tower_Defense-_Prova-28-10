@@ -172,5 +172,5 @@ public class Turrets : MonoBehaviour
      * Além disso, ele aplica dano ao inimigo com base no tipo de 
      * torre e no tipo de inimigo. Cada torre é configurada para 
      * atacar inimigos específicos (fogo, metal, espírito, etc.) e 
-     * dispara a uma frequência definida.*/
+     * dispara a uma frequência definida.*/         
 }
