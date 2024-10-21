@@ -13,7 +13,7 @@ public class BuilderTower : MonoBehaviour
 
     private void Start()
     {
-        plotTowers = new Dictionary<Transform, GameObject>();
+        plotTowers = new Dictionary<Transform, GameObject>();//Um dicionário que associa cada plot a uma torre, garantindo que não sejam construídas múltiplas torres no mesmo plot.
     }
 
     void Update()
@@ -94,3 +94,5 @@ public class BuilderTower : MonoBehaviour
         FindObjectOfType<BuilderTower>().SelectTurretType(misticaPrefab); // Seleciona o prefab da torreta Mística
     }
 }
+
+//O script BuilderTower gerencia a construção de torres no jogo de tower defense. Ele detecta cliques do jogador, verifica se o clique foi em um plot válido e, se uma torre foi selecionada, instancia a torre naquele plot. Ele também impede que o jogador construa várias torres no mesmo plot. Além disso, o script permite a seleção de diferentes tipos de torres através de botões na interface, com cada botão associando um prefab específico de torre.
