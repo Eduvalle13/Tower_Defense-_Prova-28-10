@@ -42,6 +42,6 @@ public class EnemyMoviment : MonoBehaviour
     {
         Vector2 direction = (alvo.position - transform.position).normalized; //Calcula a direção do movimento para o inimigo em relação ao ponto atual(alvo).
 
-        rb.velocity = direction * velocidade;//Atualiza a velocidade do Rigidbody2D para mover o inimigo na direção calculada com base na velocidade definida.
+        rb.velocity = direction * velocidade;//Atualiza a velocidade do Rigidbody2D para mover o inimigo na direção calculada com base na velocidade definida.s
     }
 }
